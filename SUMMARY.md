@@ -2,9 +2,7 @@
 
 * [👋 Welcome!](README.md)
 * [Quick Start](quick-start.md)
-
-## Reference
-
-* [API Reference](reference/api-reference/README.md)
-  * [Pets](reference/api-reference/pets.md)
-  * [Users](reference/api-reference/users.md)
+* [expresso library](expresso-library.md)
+* [expresso-core](expresso-core/README.md)
+  * [currency](expresso-core/currency.md)
+  * [random string](expresso-core/random-string.md)
