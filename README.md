@@ -28,11 +28,3 @@ Feeling like an eager beaver? Jump into the quick start docs and get making your
 {% content-ref url="quick-start.md" %}
 [quick-start.md](quick-start.md)
 {% endcontent-ref %}
-
-## Want to deep dive?
-
-Dive a little deeper and start exploring our API reference to get an idea of everything possible with the API:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
