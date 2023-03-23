@@ -1,5 +1,9 @@
 # random string
 
+{% hint style="info" %}
+library random string to simplify generate unique string
+{% endhint %}
+
 Using commonjs
 
 ```javascript
@@ -12,9 +16,9 @@ Using ES6
 import { randomString } from 'expresso-core'
 ```
 
-### Usage Random String
+### Using Random String
 
-#### randomString Generate by default length 32
+#### Random string generate by default length 32
 
 ```javascript
 import { randomString } from 'expresso-core'

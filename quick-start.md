@@ -12,4 +12,8 @@ The best way to interact with starter-app backend with generate template :
 npx create-expresso-app my-app
 ```
 
+{% embed url="https://www.npmjs.com/package/create-expresso-app" %}
+Check for detail parameters
+{% endembed %}
+
 For now there are only 2 types of template options, **TypeORM** and **Sequelize**.
