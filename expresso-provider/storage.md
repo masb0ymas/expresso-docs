@@ -22,9 +22,7 @@ import { Storage } from 'expresso-provider'
 import { Storage } from 'expresso-provider'
 import path from 'path'
 
-const serviceAccountPath = path.resolve(
-  `${process.cwd()}/public/gcp/gcp_serviceAccount.json`
-)
+const serviceAccountPath = path.resolve(`/public/gcp/gcp_serviceAccount.json`)
 
 export const storageService = new Storage({
   provider: 'gcp',
