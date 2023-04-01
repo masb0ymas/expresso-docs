@@ -1,4 +1,8 @@
-# storage
+---
+description: Cloud Storage with AWS S3, MinIO, Google Cloud Storage
+---
+
+# Storage
 
 {% hint style="info" %}
 Storage Provider for expressjs
@@ -19,6 +23,8 @@ import { Storage } from 'expresso-provider'
 ### Initialize Storage
 
 ```javascript
+// config/storage.ts
+
 import { Storage } from 'expresso-provider'
 import path from 'path'
 

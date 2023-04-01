@@ -1,8 +1,12 @@
-# typeorm
+# TypeORM
 
 {% hint style="info" %}
 useQuery TypeORM to Simplify Query Management data
 {% endhint %}
+
+{% embed url="https://www.npmjs.com/package/typeorm" %}
+query typeorm
+{% endembed %}
 
 Using commonjs
 

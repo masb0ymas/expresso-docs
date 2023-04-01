@@ -1,4 +1,4 @@
-# file
+# File
 
 {% hint style="info" %}
 library file to simplify using filesystem
@@ -29,7 +29,7 @@ createDirNotExist(dir)
 #### Using read html file
 
 ```javascript
-import { createDirNotExist } from 'expresso-core'
+import { readHTMLFile } from 'expresso-core'
 
 const filePath = path.resolve(`${process.cwd()}/public/output/test.html`)
 
@@ -44,7 +44,7 @@ console.log(content)
 #### Using delete file
 
 ```javascript
-import { createDirNotExist } from 'expresso-core'
+import { deleteFile } from 'expresso-core'
 
 const filePath = path.resolve(`${process.cwd()}/public/output/test.txt`)
 

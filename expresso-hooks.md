@@ -26,6 +26,10 @@ pnpm add expresso-hooks
 
 ### Using Multer Middleware
 
+{% embed url="https://www.npmjs.com/package/multer" %}
+multer middleware
+{% endembed %}
+
 Using commonjs
 
 ```javascript

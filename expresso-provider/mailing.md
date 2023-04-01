@@ -1,8 +1,16 @@
-# mail
+---
+description: Mailing with Nodemailer & OAuth Google
+---
+
+# Mailing
 
 {% hint style="info" %}
 Mail Provider from expresso-provider
 {% endhint %}
+
+{% embed url="https://www.npmjs.com/package/nodemailer" %}
+nodemailer
+{% endembed %}
 
 Using commonjs
 
@@ -19,6 +27,8 @@ import { Mail } from 'expresso-provider'
 ### Initialize Mail
 
 ```javascript
+// config/mail.ts
+
 import { Mail } from 'expresso-provider'
 
 export const mailService = new Mail({

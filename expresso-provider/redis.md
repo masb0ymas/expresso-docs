@@ -1,8 +1,16 @@
-# redis
+---
+description: Memory Cache with ioredis library
+---
+
+# Redis
 
 {% hint style="info" %}
 Redis Provider for expressjs
 {% endhint %}
+
+{% embed url="https://www.npmjs.com/package/ioredis" %}
+memory cache with ioredis
+{% endembed %}
 
 Using commonjs
 
@@ -19,6 +27,8 @@ import { Redis } from 'expresso-provider'
 ### Initialize Redis
 
 ```javascript
+// config/redis.ts
+
 import { Redis } from 'expresso-provider'
 
 export const redisService = new Redis({

@@ -1,8 +1,16 @@
-# fcm
+---
+description: Firebase Cloud Messaging
+---
+
+# FCM
 
 {% hint style="info" %}
 FCM Provider from expresso-provider
 {% endhint %}
+
+{% embed url="https://www.npmjs.com/package/firebase-admin" %}
+firebase admin to provider FCM
+{% endembed %}
 
 Using commonjs
 
@@ -19,6 +27,8 @@ import { FCM } from 'expresso-provider'
 ### Initialize FCM
 
 ```javascript
+// config/fcm.ts
+
 import { FCM } from 'expresso-provider'
 import * as admin from 'firebase-admin'
 import path from 'path'
