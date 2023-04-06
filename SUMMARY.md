@@ -11,7 +11,7 @@
 * [⚓ expresso-hooks](expresso-hooks.md)
 * [🚀 expresso-provider](expresso-provider/README.md)
   * [FCM](expresso-provider/fcm.md)
-  * [Mailing](expresso-provider/mailing.md)
+  * [Mailing](expresso-provider/mail.md)
   * [Redis](expresso-provider/redis.md)
   * [Storage](expresso-provider/storage.md)
 * [🔗 expresso-query](expresso-query/README.md)

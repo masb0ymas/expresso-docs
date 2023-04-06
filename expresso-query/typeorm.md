@@ -11,19 +11,19 @@ query typeorm
 Using commonjs
 
 ```javascript
-const { useQueryTypeORM } = require('expresso-query')
+const { useTypeOrm } = require('expresso-query')
 ```
 
 Using ES6
 
 ```javascript
-import { useQueryTypeORM } from 'expresso-query'
+import { useTypeOrm } from 'expresso-query'
 ```
 
-#### Using All Parameter useQueryTypeORM
+#### Using All Parameter useTypeOrm
 
 ```javascript
-import { useQueryTypeORM } from 'expresso-query'
+import { useTypeOrm } from 'expresso-query'
 import AppDataSource from 'database/data-source'
 import { Role } from 'database/entities/Role'
 import route from 'routes/v1'
@@ -36,7 +36,7 @@ route.get(
   const roleRepository = AppDataSource.getRepository(Role)
   
   const query = roleRepository.createQueryBuilder()
-  const newQuery = useQueryTypeORM({ entity: 'Role', query, reqQuery }, { type: 'postgres' })
+  const newQuery = useTypeOrm.queryBuilder({ entity: 'Role', query, reqQuery }, { type: 'postgres' })
   
   const data = await newQuery.getMany()
   const total = await newQuery.getCount()
