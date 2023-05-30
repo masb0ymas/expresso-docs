@@ -25,6 +25,6 @@ First of all, we recommend using **Node v16**, installing the package with **Yar
 
 Feeling like an eager beaver? Jump into the quick start docs and get making your first request:
 
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
+{% content-ref url="get-started/quick-start.md" %}
+[quick-start.md](get-started/quick-start.md)
 {% endcontent-ref %}

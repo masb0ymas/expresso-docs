@@ -1,19 +1,24 @@
 # Table of contents
 
+## Get Started
+
 * [👋 Welcome!](README.md)
-* [⚡ Quick Start](quick-start.md)
-* [📖 expresso library](expresso-library.md)
-* [⚛ expresso-core](expresso-core/README.md)
-  * [Currency](expresso-core/currency.md)
-  * [Random String](expresso-core/random-string.md)
-  * [Formatter](expresso-core/formatter.md)
-  * [File](expresso-core/file.md)
-* [⚓ expresso-hooks](expresso-hooks.md)
-* [🚀 expresso-provider](expresso-provider/README.md)
-  * [FCM](expresso-provider/fcm.md)
-  * [Mailing](expresso-provider/mail.md)
-  * [Redis](expresso-provider/redis.md)
-  * [Storage](expresso-provider/storage.md)
-* [🔗 expresso-query](expresso-query/README.md)
-  * [TypeORM](expresso-query/typeorm.md)
-  * [Sequelize](expresso-query/sequelize.md)
+* [⚡ Quick Start](get-started/quick-start.md)
+
+## Expresso Library
+
+* [📖 Introduction](expresso-library/introduction.md)
+* [⚛ expresso-core](expresso-library/expresso-core/README.md)
+  * [Currency](expresso-library/expresso-core/currency.md)
+  * [Random String](expresso-library/expresso-core/random-string.md)
+  * [Formatter](expresso-library/expresso-core/formatter.md)
+  * [File](expresso-library/expresso-core/file.md)
+* [⚓ expresso-hooks](expresso-library/expresso-hooks.md)
+* [🚀 expresso-provider](expresso-library/expresso-provider/README.md)
+  * [FCM](expresso-library/expresso-provider/fcm.md)
+  * [Mailing](expresso-library/expresso-provider/mailing.md)
+  * [Redis](expresso-library/expresso-provider/redis.md)
+  * [Storage](expresso-library/expresso-provider/storage.md)
+* [🔗 expresso-query](expresso-library/expresso-query/README.md)
+  * [TypeORM](expresso-library/expresso-query/typeorm.md)
+  * [Sequelize](expresso-library/expresso-query/sequelize.md)

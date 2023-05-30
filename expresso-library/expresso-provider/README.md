@@ -27,6 +27,6 @@ pnpm add expresso-provider
 ### Feature
 
 * [FCM](fcm.md)
-* [Mail](mail.md)
+* [Mail](mailing.md)
 * [Redis](redis.md)
 * [Storage](storage.md)
