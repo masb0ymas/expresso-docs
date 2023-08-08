@@ -24,6 +24,8 @@ Using ES6
 import { FCM } from 'expresso-provider'
 ```
 
+***
+
 ### Initialize FCM
 
 ```javascript
@@ -44,7 +46,9 @@ export const fcmService = new FCM({
 fcmService.initialize()
 ```
 
-### Using FCM
+***
+
+### FCM Send To Device
 
 ```javascript
 import { fcmService } from 'config/fcm'

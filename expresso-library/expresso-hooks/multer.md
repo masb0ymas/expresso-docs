@@ -1,30 +1,8 @@
-# ⚓ expresso-hooks
+# Multer
 
 {% hint style="info" %}
-Hooks library for expresso
+useMulter middleware for upload file with expressjs
 {% endhint %}
-
-## Install expresso-hooks
-
-Using NPM
-
-```bash
-npm install --save expresso-hooks
-```
-
-Using Yarn
-
-```bash
-yarn add expresso-hooks
-```
-
-Using PNPM
-
-```bash
-pnpm add expresso-hooks
-```
-
-### Using Multer Middleware
 
 {% embed url="https://www.npmjs.com/package/multer" %}
 multer middleware
@@ -42,7 +20,9 @@ Using ES6
 import { useMulter } from 'expresso-hooks'
 ```
 
-#### Using useMulter full feature expresso starter backend
+***
+
+### useMulter Full Feature for starter backend expresso
 
 ```javascript
 import { useMulter } from 'expresso-hooks'
@@ -82,7 +62,9 @@ route.post(
 
 ```
 
-#### Using useMulter for simple expressjs
+***
+
+### useMulter for simple expressjs
 
 ```javascript
 import { useMulter } from 'expresso-hooks'
@@ -108,7 +90,9 @@ route.post(
 )
 ```
 
-#### Using All Parameters useMulter
+***
+
+### All Parameters useMulter
 
 ```javascript
 import { useMulter } from 'expresso-hooks'
@@ -127,3 +111,4 @@ const uploadFile = useMulter({
   { name: 'fileDocument', maxCount: 1 },
 ])
 ```
+

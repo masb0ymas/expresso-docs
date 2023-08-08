@@ -20,7 +20,9 @@ Using ES6
 import { useSequelize } from 'expresso-query'
 ```
 
-#### Using All Parameter useSequelize
+***
+
+### All Parameter useSequelize
 
 <pre class="language-javascript"><code class="lang-javascript">import { useSequelize } from 'expresso-query'
 import { User } from 'database/entities/User'

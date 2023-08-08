@@ -20,6 +20,8 @@ Using ES6
 import { Storage } from 'expresso-provider'
 ```
 
+***
+
 ### Initialize Storage
 
 ```javascript
@@ -44,6 +46,8 @@ export const storageService = new Storage({
 storageService.initialize()
 ```
 
+***
+
 ### Upload File for JavaScript
 
 ```javascript
@@ -65,6 +69,8 @@ async function uploadFile({ fieldUpload, directory, UploadId }) {
   return formUpload
 }
 ```
+
+***
 
 ### Upload File for TypeScript
 
@@ -108,6 +114,8 @@ async function uploadFile({ fieldUpload, directory, UploadId }: UploadFileEntity
   return formUpload
 }
 ```
+
+***
 
 ### Get Presigned URL
 

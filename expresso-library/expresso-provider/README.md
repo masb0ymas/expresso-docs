@@ -24,9 +24,11 @@ Using PNPM
 pnpm add expresso-provider
 ```
 
-### Feature
+***
+
+### Features
 
 * [FCM](fcm.md)
-* [Mail](mailing.md)
+* [SMTP](smtp.md)
 * [Redis](redis.md)
 * [Storage](storage.md)

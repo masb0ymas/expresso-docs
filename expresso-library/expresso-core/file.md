@@ -16,7 +16,9 @@ Using ES6
 import { createDirNotExist } from 'expresso-core'
 ```
 
-#### Using create dir not exist
+***
+
+### Create dir not exist
 
 ```javascript
 import { createDirNotExist } from 'expresso-core'
@@ -26,7 +28,9 @@ const dir = `${process.cwd()}/public/temp`
 createDirNotExist(dir)
 ```
 
-#### Using read html file
+***
+
+### Read HTML File
 
 ```javascript
 import { readHTMLFile } from 'expresso-core'
@@ -41,7 +45,9 @@ console.log(content)
 // file buffer
 ```
 
-#### Using delete file
+***
+
+### Delete File
 
 ```javascript
 import { deleteFile } from 'expresso-core'

@@ -1,4 +1,4 @@
-# random string
+# Random String
 
 {% hint style="info" %}
 library random string to simplify generate unique string
@@ -16,9 +16,9 @@ Using ES6
 import { randomString } from 'expresso-core'
 ```
 
-### Using Random String
+***
 
-#### Random string generate by default length 32
+### Random String generate by default length 32
 
 ```javascript
 import { randomString } from 'expresso-core'
@@ -31,7 +31,9 @@ console.log(result)
 'aq52PvnFrtvsX6rtA8MLj27xR2HcEJht'
 ```
 
-#### Generate with length 10
+***
+
+### Generate with length 10
 
 ```javascript
 const result = randomString.generate(10)
@@ -42,7 +44,9 @@ console.log(result)
 'aq52PvnFrt'
 ```
 
-#### Generate with type **Numeric**
+***
+
+### Generate with type **Numeric**
 
 ```javascript
 const result = randomString.generate({

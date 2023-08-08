@@ -24,7 +24,9 @@ Using PNPM
 pnpm add expresso-query
 ```
 
-### Feature
+***
+
+### Features
 
 * [TypeORM](typeorm.md)
 * [Sequelize](sequelize.md)

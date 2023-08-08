@@ -20,7 +20,9 @@ Using ES6
 import { useTypeOrm } from 'expresso-query'
 ```
 
-#### Using All Parameter useTypeOrm
+***
+
+### All Parameter useTypeOrm
 
 ```javascript
 import { useTypeOrm } from 'expresso-query'

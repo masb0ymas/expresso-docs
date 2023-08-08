@@ -24,6 +24,8 @@ Using ES6
 import { Redis } from 'expresso-provider'
 ```
 
+***
+
 ### Initialize Redis
 
 ```javascript
@@ -37,6 +39,8 @@ export const redisService = new Redis({
   password: 'your_password',
 })
 ```
+
+***
 
 ### Using Redis
 

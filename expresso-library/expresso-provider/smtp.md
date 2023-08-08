@@ -2,7 +2,7 @@
 description: Mailing with Nodemailer & OAuth Google
 ---
 
-# Mailing
+# SMTP
 
 {% hint style="info" %}
 Mail Provider from expresso-provider
@@ -24,7 +24,9 @@ Using ES6
 import { Mail } from 'expresso-provider'
 ```
 
-### Initialize Mail
+***
+
+### Initialize SMTP
 
 ```javascript
 // config/mail.ts
@@ -42,6 +44,8 @@ export const mailService = new Mail({
 
 mailService.initialize()
 ```
+
+***
 
 ### Send Mail
 

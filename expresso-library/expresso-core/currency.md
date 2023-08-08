@@ -1,4 +1,4 @@
-# currency
+# Currency
 
 {% hint style="info" %}
 Library currency to simplify nominal formatting
@@ -16,7 +16,9 @@ Using ES6
 import { currency } from 'expresso-core'
 ```
 
-#### Format with national currency symbol
+***
+
+### Format with national currency symbol
 
 ```javascript
 import { currency } from 'expresso-core'
@@ -32,7 +34,9 @@ console.log(result)
 'Rp 125.000'
 ```
 
-#### Format nominal
+***
+
+### Format nominal
 
 ```javascript
 import { currency } from 'expresso-core'

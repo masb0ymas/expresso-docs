@@ -24,9 +24,12 @@ Using PNPM
 pnpm add expresso-core
 ```
 
-### Feature
+***
 
-* [currency](currency.md)
-* [random string](random-string.md)
-* [formatter](formatter.md)
-* [file](file.md)
+### Features
+
+* [Currency](currency.md)
+* [Random String](random-string.md)
+* [Formatter](formatter.md)
+* [File](file.md)
+* [Phone](phone.md)

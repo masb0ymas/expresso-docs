@@ -1,4 +1,4 @@
-# formatter
+# Formatter
 
 {% hint style="info" %}
 library formatter to simplify validate and format value
@@ -16,9 +16,9 @@ Using ES6
 import { ms } from 'expresso-core'
 ```
 
-### Using formatter ms
+***
 
-#### format ms 1d ( 1 day )
+### Format ms 1d ( 1 day )
 
 ```javascript
 import { ms } from 'expresso-core'
@@ -31,7 +31,9 @@ console.log(result)
 86400000
 ```
 
-#### format ms 5m ( 5 minute )
+***
+
+### format ms 5m ( 5 minute )
 
 ```javascript
 import { ms } from 'expresso-core'
@@ -44,9 +46,9 @@ console.log(result)
 300000
 ```
 
-### Using formatter validate
+***
 
-#### isNumeric value
+### isNumeric value
 
 ```javascript
 import { isNumeric } from 'expresso-core'
@@ -59,7 +61,9 @@ console.log(result)
 10
 ```
 
-#### Validate number value
+***
+
+### Validate Number value
 
 ```javascript
 import { validateNumber } from 'expresso-core'
@@ -80,7 +84,9 @@ console.log(result)
 0
 ```
 
-#### Validate boolean value
+***
+
+### Validate Boolean value
 
 ```javascript
 import { validateBoolean } from 'expresso-core'
@@ -101,7 +107,9 @@ console.log(result)
 false
 ```
 
-#### Validate empty value
+***
+
+### Validate Empty value
 
 ```javascript
 import { validateEmpty } from 'expresso-core'
